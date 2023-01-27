@@ -1,0 +1,111 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.main{
+    
+    width: 195px;
+    min-height: 58vh;
+    margin: auto;
+    background: hsl(216, 50%, 16%);
+    padding: 13px;
+    padding-right: 8px;
+    border-radius: 10px;
+    margin-top: 100px;
+    cursor: pointer;
+    
+}
+h4{
+    color: white;
+}
+.p1{
+    font-size: small;
+    color: hsl(215, 51%, 70%)
+}
+
+img{
+    border-radius: 6px;
+}
+
+.p2{
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif    
+}
+
+
+pre{
+    color:hsl(215, 51%, 70%);
+    font-size: 11px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   letter-spacing: 0.5px;
+}
+.sub__text{
+   display: flex;
+}
+
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    color: hsl(178, 100%, 50%);
+}
+
+.avt-border {
+    border-radius: 10px; 
+    border: 1px solid white;
+}
+
+hr{
+    border: 1px solid hsl(215, 32%, 27%);   
+}
+
+.span__jules{
+    color: white;
+    
+}
+
+.h4:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.span__jules:hover{
+    color: hsl(178, 100%, 50%);
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.overlay {
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 98%;
+    width: 98%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: hsl(178, 100%, 50%);
+} 
+
+.container:hover .overlay {
+    opacity: 0.6;
+  }
+
+.icon__view{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  }
+
+.attribution{
+    color:white;
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+}
