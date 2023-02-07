@@ -109,3 +109,12 @@ hr{
 a{
     text-decoration: none;
 }
+
+@media screen and (max-width: 414px){
+    .main{
+        min-height: 30vh;
+    }
+    .attribution{
+        text-align: center;
+    }
+}
